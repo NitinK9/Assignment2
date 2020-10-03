@@ -1,0 +1,148 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/nitin/Projects/HelloWorldCore/HelloWorldTest/HelloWorldTest.csproj": {}
+  },
+  "projects": {
+    "/Users/nitin/Projects/HelloWorldCore/HelloWorldCore/HelloWorldCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nitin/Projects/HelloWorldCore/HelloWorldCore/HelloWorldCore.csproj",
+        "projectName": "HelloWorldCore",
+        "projectPath": "/Users/nitin/Projects/HelloWorldCore/HelloWorldCore/HelloWorldCore.csproj",
+        "packagesPath": "/Users/nitin/.nuget/packages/",
+        "outputPath": "/Users/nitin/Projects/HelloWorldCore/HelloWorldCore/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nitin/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nitin/Projects/HelloWorldCore/HelloWorldTest/HelloWorldTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nitin/Projects/HelloWorldCore/HelloWorldTest/HelloWorldTest.csproj",
+        "projectName": "HelloWorldTest",
+        "projectPath": "/Users/nitin/Projects/HelloWorldCore/HelloWorldTest/HelloWorldTest.csproj",
+        "packagesPath": "/Users/nitin/.nuget/packages/",
+        "outputPath": "/Users/nitin/Projects/HelloWorldCore/HelloWorldTest/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nitin/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/nitin/Projects/HelloWorldCore/HelloWorldCore/HelloWorldCore.csproj": {
+                "projectPath": "/Users/nitin/Projects/HelloWorldCore/HelloWorldCore/HelloWorldCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
